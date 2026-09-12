@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    
+    <a href="index.html">
+        <button style="
+            background-color: #45c49a;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 55px;
+            height: 55px;
+            font-size: 30px;
+            cursor: pointer;">
+            ←
+        </button>
+    </a>
+
+    <br><br>
+
+    <!-- Logo -->
+    <center>
+        <img src="https://lms.saylanimit.com/logo.png" width="180">
+
+        <br><br><br>
+
+        <h2>STUDENT REGISTRATION FORM</h2>
+
+        <br>
+
+        <form>
+
+            <table cellpadding="8">
+
+            
+                <tr>
+                    <td>FIRST NAME</td>
+                    <td>
+                        <input type="text"
+                               placeholder="Enter the First Name"
+                               maxlength="30">
+                    </td>
+                    <td>(max 30 characters a-z and A-Z)</td>
+                </tr>
+
+           
+                <tr>
+                    <td>LAST NAME</td>
+                    <td>
+                        <input type="text"
+                               placeholder="Enter the Last Name"
+                               maxlength="30">
+                    </td>
+                    <td>(max 30 characters a-z and A-Z)</td>
+                </tr>
+
+         
+                <tr>
+                    <td>DATE OF BIRTH</td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+
+             
+                <tr>
+                    <td>EMAIL ID</td>
+                    <td>
+                        <input type="email"
+                               placeholder="Enter the Email Address">
+                    </td>
+                </tr>
+
+             
+                <tr>
+                    <td>MOBILE<br>NUMBER</td>
+                    <td>
+                        <input type="tel"
+                               placeholder="Enter the Mobile Number"
+                               maxlength="10">
+                    </td>
+                    <td>(10 Digits Numbers)</td>
+                </tr>
+
+                <tr>
+                    <td>GENDER</td>
+                    <td>
+                        Male <input type="radio" name="gender">
+                        Female <input type="radio" name="gender">
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td>ADDRESS</td>
+                    <td>
+                        <textarea rows="5" cols="35"></textarea>
+                    </td>
+                </tr>
+
+             
+                <tr>
+                    <td>CITY</td>
+                    <td>
+                        <input type="text"
+                               placeholder="Enter the City Name"
+                               maxlength="30">
+                    </td>
+                    <td>(max 30 characters a-z and A-Z)</td>
+                </tr>
+
+                
+                <tr>
+                    <td>PIN CODE</td>
+                    <td>
+                        <input type="text"
+                               placeholder="Enter the Pin Code"
+                               maxlength="6">
+                    </td>
+                    <td>(6 Digits Numbers)</td>
+                </tr>
+
+                <tr>
+                    <td>STATE</td>
+                    <td>
+                        <input type="text"
+                               placeholder="Enter the State"
+                               maxlength="30">
+                    </td>
+                    <td>(max 30 characters a-z and A-Z)</td>
+                </tr>
+
+                
+                <tr>
+                    <td>COUNTRY</td>
+                    <td>
+                        <input type="text"
+                               placeholder="Enter the Country Name">
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td>HOBBIES</td>
+                    <td colspan="2">
+
+                        Drawing
+                        <input type="checkbox">
+
+                        Singing
+                        <input type="checkbox">
+
+                        Dancing
+                        <input type="checkbox">
+
+                        Sketching
+                        <input type="checkbox">
+
+                        <br>
+
+                        Others
+                        <input type="checkbox">
+
+                        <input type="text">
+
+                    </td>
+                </tr>
+
+            </table>
+
+
+            
+            <br>
+
+            <table border="0" cellpadding="5">
+
+                <tr>
+                    <td>QUALIFICATION</td>
+
+                    <th>Sl.No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of passing</th>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+
+            </table>
+
+
+          
+            <br>
+
+            <table cellpadding="8">
+
+                <tr>
+                    <td>COURSES<br>APPLIED FOR</td>
+                    <td>
+                        <select>
+                            <option>Select any course</option>
+                            <option>Web Development</option>
+                            <option>Graphic Designing</option>
+                            <option>AI</option>
+                            <option>Python</option>
+                        </select>
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td>
+                        Upload you pic<br>
+                        (only .png,.jpg,.jpeg<br>
+                        formats allow)
+                    </td>
+
+                    <td>
+                        <input type="file"
+                               accept=".png,.jpg,.jpeg">
+                    </td>
+                </tr>
+
+            </table>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+            &nbsp;
+            <input type="reset" value="Reset">
+
+        </form>
+
+    </center>
+
+</body>
+</html>
